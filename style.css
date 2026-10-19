@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+/* Định dạng chung cho Grid Container */
+.grid-container {
+    display: grid;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+/* Ví dụ 1: 3 cột có kích thước bằng nhau */
+.ex1 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.ex1 div {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Ví dụ 2: 3 cột có kích thước khác nhau */
+.ex2 {
+    grid-template-columns: 100px 200px 1fr;
+}
+
+.ex2 div {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+}
